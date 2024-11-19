@@ -143,7 +143,7 @@ def IniciarSimulacion():
     TotalFrames = len(Tiempo)
     Intervalo = 1000 * 7 / TotalFrames
 
-    Ani = animation.FuncAnimation(Fig, Update, frames=TotalFrames, init_func=Init, blit=True, interval=Intervalo, repeat=False)
+    Ani = animation.FuncAnimation(Fig, Update, frames=TotalFrames, init_func=Init, blit=True, interval=Intervalo, repeat=True)
 
     # Cargar y reproducir sonido
     try:
