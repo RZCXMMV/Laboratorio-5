@@ -36,11 +36,11 @@ FrameControles.grid(row=0, column=0, padx=20, pady=20, sticky="nsew")
 FrameControles.config(height=250)
 
 # Entrada de rango de tiempo con bordes y colores
-ttk.Label(FrameControles, text="Rango Inicio (t):", font=FontLabels).grid(row=0, column=0, sticky="w", pady=5)
+ttk.Label(FrameControles, text="Inicio Del Rango:", font=FontLabels).grid(row=0, column=0, sticky="w", pady=5)
 SpinInicio = ttk.Spinbox(FrameControles, from_=-10, to=10, increment=0.5, textvariable=RangoInicio, width=8, font=FontLabels)
 SpinInicio.grid(row=0, column=1, pady=5)
 
-ttk.Label(FrameControles, text="Rango Fin (t):", font=FontLabels).grid(row=1, column=0, sticky="w", pady=5)
+ttk.Label(FrameControles, text="Fin Del Rango:", font=FontLabels).grid(row=1, column=0, sticky="w", pady=5)
 SpinFin = ttk.Spinbox(FrameControles, from_=-10, to=10, increment=0.5, textvariable=RangoFin, width=8, font=FontLabels)
 SpinFin.grid(row=1, column=1, pady=5)
 
