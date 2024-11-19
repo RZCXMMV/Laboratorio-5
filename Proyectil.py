@@ -99,7 +99,7 @@ def IniciarSimulacion():
     ax.set_ylabel("Magnitud", fontsize=14)
     ax.grid(True)
 
-    # Leyenda combinada de los puntos y las ecuaciones
+    # Leyenda de los puntos y las ecuaciones
     leyenda_completa = (
         f"Velocidad en t=-3: {VelocidadEnTmenos3:.2f}\n"
         f"Velocidad en t=0: {VelocidadEnT0:.2f}\n"
